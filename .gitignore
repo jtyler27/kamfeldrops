@@ -78,4 +78,8 @@ sysinfo.txt
 
 
 # Crashlytics generated file
+<<<<<<< Updated upstream
 crashlytics-build.properties
+=======
+crashlytics-build.properties
+>>>>>>> Stashed changes
