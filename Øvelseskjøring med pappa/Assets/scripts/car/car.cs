@@ -5,10 +5,7 @@ using UnityEngine;
 public class car : MonoBehaviour
 {
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log("hit dettected");
-    }
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -20,5 +17,11 @@ public class car : MonoBehaviour
     {
         
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("hit dettected");
+    }
+
 }
 
